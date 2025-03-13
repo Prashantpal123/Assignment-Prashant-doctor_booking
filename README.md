@@ -1,4 +1,4 @@
-# React + Vite
+
 # Doctor Search & Appointment Booking UI
 
 A web application that allows users to search for doctors by name or specialty, book appointments, and manage their booked appointments. This project is designed to provide a user-friendly interface for patients seeking medical consultations.
@@ -45,9 +45,10 @@ To run the Doctor Search & Appointment Booking UI locally, follow these steps:
    ```bash
    git clone https://github.com/Prashantpal123/Assignment-Prashant-doctor_booking
 2. Navigate to the project directory:
-     cd doctor-appointment-booking
+   ```bash
+    cd Assignment-Prashant-doctor_booking
 
-3. Install dependencies:
+4. Install dependencies:
    ```bash
      npm install
    
