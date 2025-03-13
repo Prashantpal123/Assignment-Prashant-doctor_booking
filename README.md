@@ -48,10 +48,12 @@ To run the Doctor Search & Appointment Booking UI locally, follow these steps:
      cd doctor-appointment-booking
 
 3. Install dependencies:
+   ```bash
      npm install
    
-4. Start the development server:
-     npm run dev (Start the server by command based on your device )        
+5. Start the development server: (Start the server by command based on your device )  
+   ```bash
+     npm run dev       
 Usage
 1. Open the application in your web browser.
 2. Use the search bar on the homepage to find doctors by name or specialty.
