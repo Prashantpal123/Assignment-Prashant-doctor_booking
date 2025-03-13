@@ -43,7 +43,7 @@ To run the Doctor Search & Appointment Booking UI locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/doctor-appointment-booking.git
+   git clone https://github.com/Prashantpal123/Assignment-Prashant-doctor_booking
 2. Navigate to the project directory:
      cd doctor-appointment-booking
 
