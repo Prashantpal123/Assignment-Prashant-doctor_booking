@@ -1,12 +1,88 @@
 # React + Vite
+# Doctor Search & Appointment Booking UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web application that allows users to search for doctors by name or specialty, book appointments, and manage their booked appointments. This project is designed to provide a user-friendly interface for patients seeking medical consultations.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 1. Homepage (Doctor Search)
+- A search bar where users can enter a doctor's name or specialty.
+- Displays a list of doctors fetched from a mock API or a predefined list.
+- Each doctor card includes:
+  - Doctor's Name
+  - Specialty
+  - Experience (years)
+  - Location
+  - "Book Appointment" button
+- Responsive design to ensure usability on various devices.
 
-## Expanding the ESLint configuration
+### 2. Appointment Booking Form
+- When a user clicks on "Book Appointment," a modal/popup opens or navigates to a new page.
+- Form fields include:
+  - Patient Name
+  - Age
+  - Gender (Dropdown)
+  - Mobile Number
+  - Preferred Date (Date Picker)
+  - Preferred Time Slot (Dropdown)
+- A submit button to save appointment details in local state (no backend required).
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 3. Appointments List Page
+- Displays a table/list of booked appointments.
+- Each row includes:
+  - Patient Name
+  - Doctor Name
+  - Date
+  - Time
+  - "Edit" and "Cancel" buttons.
+- Editing functionality allows modification of appointment details.
+
+## Installation Instructions
+
+To run the Doctor Search & Appointment Booking UI locally, follow these steps:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/username/doctor-appointment-booking.git
+2. Navigate to the project directory:
+     cd doctor-appointment-booking
+
+3. Install dependencies:
+     npm install
+   
+4. Start the development server:
+     npm run dev (Start the server by command based on your device )        
+Usage
+1. Open the application in your web browser.
+2. Use the search bar on the homepage to find doctors by name or specialty.
+3. Click on the "Book Appointment" button for the desired doctor to open the booking form.
+4. Fill in the required details and submit the form to save the appointment.
+5. Navigate to the appointments list page to view, edit, or cancel your booked appointments.
+Contributing
+6. Contributions are welcome! If you'd like to contribute to this project, please follow these steps:
+
+Fork the repository.
+1. Create a new branch for your feature or bug fix.
+2. Make your changes and commit them.
+3. Push your changes to your forked repository.
+4. Submit a pull request.
+License
+5. This project is licensed under the MIT License. See the LICENSE file for details.
+
+Authors and Acknowledgments
+This project was created by Prashant Pal.
+
+
+FAQ
+Q: What is the purpose of this application?
+A: This application allows users to search for doctors and book appointments easily.
+
+Q: How do I install the application?
+A: Follow the installation instructions provided in the README.
+
+Q: Can I edit my booked appointments?
+A: Yes, you can edit your booked appointments from the appointments list page.
+
+Q: Is there a backend for this application?
+A: No, this application uses local state management for storing appointment details without a backend.
+   
